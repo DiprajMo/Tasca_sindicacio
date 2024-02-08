@@ -1,0 +1,16 @@
+<!ELEMENT channel (image,item*)>
+<!ELEMENT Image (url,title,link,description)>
+<!ELEMENT item (guid,title,description,pubDate,link,enclosure,category,dcterms:modified,dc:creator,content,media)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT guid (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT pubDate (#PCDATA)>
+<!ELEMENT enclosure (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT dcterms:modified (#PCDATA)>
+<!ELEMENT dc:creator (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT media (#PCDATA)>
